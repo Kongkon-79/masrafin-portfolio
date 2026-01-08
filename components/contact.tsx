@@ -35,8 +35,8 @@ export function Contact() {
     },
     {
       label: "WhatsApp",
-      value: "+8801760976571",
-      href: "https://wa.me/8801760976571",
+      value: "+8801635-047196",
+      href: "https://wa.me/8801635-047196",
       icon: "💬",
     },
     {

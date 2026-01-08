@@ -25,16 +25,16 @@ const itemVariants = {
 export function Skills() {
   const skillCategories = [
     {
-      title: "Operations",
-      skills: ["Team Management", "Process Optimization", "KPI Management", "Quality Control", "Workflow Efficiency"],
+      title: "Operations & Project Management",
+      skills: ["Operations Management", " Team Management", "Process Optimization", "KPI Setting & Performance Tracking", "Quality Control & Delivery Management"],
     },
     {
-      title: "Digital Marketing",
-      skills: ["Google Ads", "SEO", "Campaign Management", "Conversion Tracking", "Analytics"],
+      title: "Digital Marketing & Performance",
+      skills: ["Social Media Marketing (SMM)", "Media Buying (Meta & Tiktok Ads)", "Campaign Planning & Optimization", "SEO Strategy (On-page & Keyword Research)", "Conversion Tracking & Analytics"],
     },
     {
-      title: "Leadership",
-      skills: ["Team Leadership", "Client Relations", "Strategic Planning", "Problem Solving", "Decision Making"],
+      title: "Leadership & Growth",
+      skills: ["Team Leadership & Mentoring", "Client Communication & Relationship Management", "Strategic Planning & Execution", "Problem Solving & Decision Making", "Scalable Growth & Process Improvement"],
     },
   ]
 
