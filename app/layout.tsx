@@ -10,10 +10,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "MD. Rasel Islam | AGM – Operations",
+  title: "Masrafin Hasan | Project Manager | Social Media Marketing",
   description:
-    "Professional portfolio of MD. Rasel Islam, AGM – Operations at ScaleUp Ads Agency. Specializing in operations leadership, growth, and digital marketing.",
-  generator: "v0.app",
+    "Professional portfolio of Masrafin Hasan, Project Manager and Social Media Marketing at ScaleUp Ads Agency. Specializing in Social Media Marketing",
+  // generator: "v0.app",
   icons: {
     icon: [
       {

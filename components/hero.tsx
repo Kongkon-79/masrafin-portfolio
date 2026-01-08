@@ -59,7 +59,7 @@ export function Hero() {
 
               {/* Profile Image Container */}
               <div className="absolute inset-2 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl overflow-hidden border border-primary/30 backdrop-blur-sm">
-                <img src="/rasel.jpg" alt="MD. Rasel Islam" className="w-full h-full object-cover" />
+                <img src="/pic.png" alt="MD. Rasel Islam" className="w-full h-full object-cover" />
               </div>
 
               <motion.div
@@ -88,7 +88,7 @@ export function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-5xl md:text-6xl font-bold tracking-tight text-balance leading-tight"
             >
-              MD. Rasel Islam
+              Masrafin Hasan
             </motion.h1>
 
             {/* Subtitle */}
@@ -98,7 +98,7 @@ export function Hero() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="space-y-2"
             >
-              <p className="text-2xl font-semibold text-primary">AGM – Operations</p>
+              <p className="text-2xl font-semibold text-primary">Project Manager | Social Media Marketing</p>
               <p className="text-lg text-muted-foreground">ScaleUp Ads Agency</p>
             </motion.div>
 
@@ -109,8 +109,7 @@ export function Hero() {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-muted-foreground text-base leading-relaxed max-w-lg"
             >
-              Operations leader with expertise in team management, process optimization, and driving scalable growth. I
-              bridge strategy and execution to deliver measurable results and exceptional client satisfaction.
+             I help brands scale through structured project management, efficient operations, and results-driven social media marketing. My focus is on execution, growth, and client satisfaction.
             </motion.p>
 
             {/* CTA Buttons */}

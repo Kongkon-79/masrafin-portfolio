@@ -25,25 +25,25 @@ const itemVariants = {
 export function Experience() {
   const experiences = [
     {
-      title: "AGM – Operations",
+      title: "Project Manager | Social Media Marketing",
       company: "ScaleUp Ads Agency",
       period: "Current",
       description:
-        "Leading end-to-end operations across all service line teams for both day and night shifts. Setting KPIs, monitoring team performance, and ensuring consistent delivery quality. Managing escalations, revisions, and driving process optimization.",
+        "Leading end-to-end social media marketing projects, overseeing team performance, timelines, and delivery quality. Setting KPIs, tracking campaign performance, and ensuring alignment between strategy and execution. Managing client communication, revisions, and process optimization to deliver measurable results and high client satisfaction.",
     },
     {
-      title: "Operations Manager",
+      title: "Team Leader | Social Media Marketing",
       company: "ScaleUp Ads Agency",
       period: "Previous",
       description:
-        "Managed cross-functional teams for ads, SEO, and creative services. Ensured on-time project delivery and quality control. Coordinated between clients, team leaders, and management.",
+        "Led SMM execution teams responsible for content planning, campaign setup, and daily optimization. Coordinated between media buyers, designers, and clients to ensure on-time delivery and quality control. Monitored team performance, handled revisions, and supported workflow improvements.",
     },
     {
       title: "Digital Marketing Executive",
       company: "ScaleUp Ads Agency",
       period: "Early Career",
       description:
-        "Executed Google Ads campaigns and SEO tasks. Performed keyword research, ad optimization, and reporting. Assisted in conversion tracking and analytics setup.",
+        "Executed and managed social media marketing campaigns while handling core SEO activities with hands-on responsibility. Conducted in-depth audience and keyword research, optimized ad creatives and targeting, and performed on-page SEO improvements to drive both paid and organic growth. Analyzed campaign and SEO performance through regular reporting, insights, and optimization working closely with senior team members to deliver conversion-focused and scalable results.",
     },
   ]
 

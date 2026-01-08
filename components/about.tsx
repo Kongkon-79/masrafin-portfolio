@@ -45,38 +45,36 @@ export function About() {
           {/* Bio */}
           <motion.div variants={itemVariants} className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I am currently serving as{" "}
-              <span className="text-primary font-semibold">AGM – Operations at ScaleUp Ads Agency</span>, a sister
-              concern of Betopia Group. I oversee day-to-day operations, team performance, delivery quality, and client
-              satisfaction while driving scalable systems for growth.
+              I am currently serving as a 
+              <span className="text-primary font-semibold"> Project Manager at ScaleUp Ads Agency</span>, a sister concern of Betopia Group. I oversee end-to-end project execution, team coordination, delivery quality, and client satisfaction while implementing scalable systems to support long-term growth.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With a strong background in Google Ads, SEO, and Team Management Process, I bridge the gap between
-              strategy and execution—ensuring projects are delivered on time, teams stay aligned with KPIs, and clients
-              receive measurable results.
+              Alongside project management, I bring hands-on expertise in media buying and SEO. I manage and optimize paid advertising campaigns across platforms, develop data-driven SEO strategies, and ensure marketing efforts align with business goals. By bridging strategy, execution, and performance marketing, I help teams deliver measurable results on time and within scope
             </p>
           </motion.div>
 
           {/* Key areas */}
           <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8 pt-8">
             <div className="space-y-4 p-6 rounded-lg border border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-colors">
-              <h3 className="text-xl font-semibold text-primary">Operations Leadership</h3>
+              <h3 className="text-xl font-semibold text-primary">Operations & Project Leadership</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Managing day & night shift operation teams</li>
-                <li>• Ensuring on-time delivery & quality control</li>
-                <li>• KPI target setting & achievement tracking</li>
-                <li>• Revision handling & process improvement</li>
+                <li>• End-to-end project execution & on-time delivery</li>
+                <li>• Quality control, revision handling & process improvement</li>
+                <li>• KPI setting, performance tracking & team accountability</li>
+                <li>• Cross-functional team coordination & workflow management</li>
               </ul>
             </div>
 
             <div className="space-y-4 p-6 rounded-lg border border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-colors">
-              <h3 className="text-xl font-semibold text-primary">Growth & Scale</h3>
+              <h3 className="text-xl font-semibold text-primary">Growth, Media Buying & SEO</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Team scaling & workflow optimization</li>
-                <li>• Client retention & satisfaction management</li>
-                <li>• Agency process standardization</li>
-                <li>• Strategic growth initiatives</li>
+                <li>• Paid ads management (Meta & Tiktok Ads)</li>
+                <li>• Media buying strategy, budget control & ROI optimization</li>
+                <li>• SEO strategy, keyword research & on-page optimization</li>
+                <li>• Organic & paid growth alignment for scalable results</li>
+                <li>• Client retention, satisfaction & agency growth initiatives</li>
               </ul>
             </div>
           </motion.div>

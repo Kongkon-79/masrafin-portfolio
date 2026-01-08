@@ -62,7 +62,7 @@ export function Navigation() {
           whileHover={{ scale: 1.05 }}
           className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
         >
-          Rasel
+          Masrafin Hasan
         </motion.a>
 
         <div className="hidden md:flex items-center gap-8">
