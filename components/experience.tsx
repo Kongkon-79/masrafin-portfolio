@@ -49,7 +49,7 @@ export function Experience() {
 
   return (
     <section id="experience" className="relative py-20 md:py-32 bg-background">
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container">
         <motion.div
           variants={containerVariants}
           initial="hidden"
