@@ -59,7 +59,7 @@ export function Hero() {
 
               {/* Profile Image Container */}
               <div className="absolute inset-2 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl overflow-hidden border border-primary/30 backdrop-blur-sm">
-                <img src="/pic.png" alt="MD. Rasel Islam" className="w-full h-full object-cover" />
+                <img src="/masrafin-bhai.jpg" alt="MD. Rasel Islam" className="w-full h-full object-cover" />
               </div>
 
               <motion.div

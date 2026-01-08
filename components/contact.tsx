@@ -29,8 +29,8 @@ export function Contact() {
   const contactLinks = [
     {
       label: "Email",
-      value: "raselbdcallingit@gmail.com",
-      href: "mailto:raselbdcallingit@gmail.com",
+      value: "masrafinbinhasan@gmail.com",
+      href: "mailto:masrafinbinhasan@gmail.com",
       icon: "✉️",
     },
     {
@@ -48,11 +48,12 @@ export function Contact() {
 
   return (
     <section id="contact" className="relative py-20 md:py-32 bg-background">
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
+
           viewport={{ once: true, margin: "-100px" }}
           className="space-y-12"
         >
