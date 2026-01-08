@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode - modern professional palette */
+  --background: oklch(0.98 0.02 250);       /* soft off-white */
+  --foreground: oklch(0.1 0.01 250);        /* dark gray/black text */
+  --card: oklch(0.95 0.02 250);             /* slightly lighter card */
+  --card-foreground: oklch(0.1 0.01 250);
+  --popover: oklch(0.97 0.01 250);
+  --popover-foreground: oklch(0.1 0.01 250);
+  --primary: oklch(0.55 0.15 220);          /* calm professional blue */
+  --primary-foreground: oklch(0.98 0.02 250);
+  --secondary: oklch(0.65 0.08 40);         /* warm accent - amber/orange */
+  --secondary-foreground: oklch(0.1 0.01 250);
+  --muted: oklch(0.75 0.02 250);            /* subtle gray for muted elements */
+  --muted-foreground: oklch(0.45 0.01 250);
+  --accent: oklch(0.55 0.15 220);           /* same as primary for consistency */
+  --accent-foreground: oklch(0.98 0.02 250);
+  --destructive: oklch(0.57 0.2 25);        /* professional red */
+  --destructive-foreground: oklch(0.98 0.02 250);
+  --border: oklch(0.85 0.01 250);
+  --input: oklch(0.93 0.01 250);
+  --ring: oklch(0.55 0.15 220);
+  --chart-1: oklch(0.55 0.15 220);          /* primary chart color */
+  --chart-2: oklch(0.65 0.08 40);           /* secondary chart color */
+  --chart-3: oklch(0.6 0.1 80);             /* green chart color */
+  --chart-4: oklch(0.85 0.15 30);           /* amber chart color */
+  --chart-5: oklch(0.65 0.12 300);          /* purple accent chart */
+  --radius: 0.625rem;
+  --sidebar: oklch(0.95 0.02 250);
+  --sidebar-foreground: oklch(0.1 0.01 250);
+  --sidebar-primary: oklch(0.55 0.15 220);
+  --sidebar-primary-foreground: oklch(0.98 0.02 250);
+  --sidebar-accent: oklch(0.65 0.08 40);
+  --sidebar-accent-foreground: oklch(0.1 0.01 250);
+  --sidebar-border: oklch(0.85 0.01 250);
+  --sidebar-ring: oklch(0.55 0.15 220);
+}
+
+.dark {
+  /* Dark mode - professional neutral/dark palette */
+  --background: oklch(0.12 0.02 250);       /* dark charcoal background */
+  --foreground: oklch(0.95 0.01 250);       /* off-white text */
+  --card: oklch(0.18 0.02 250);             /* dark card */
+  --card-foreground: oklch(0.95 0.01 250);
+  --popover: oklch(0.15 0.01 250);
+  --popover-foreground: oklch(0.95 0.01 250);
+  --primary: oklch(0.55 0.15 220);          /* calm blue */
+  --primary-foreground: oklch(0.95 0.01 250);
+  --secondary: oklch(0.55 0.08 40);         /* amber accent */
+  --secondary-foreground: oklch(0.95 0.01 250);
+  --muted: oklch(0.25 0.01 250);
+  --muted-foreground: oklch(0.7 0.02 250);
+  --accent: oklch(0.55 0.15 220);
+  --accent-foreground: oklch(0.95 0.01 250);
+  --destructive: oklch(0.55 0.2 25);        /* professional red */
+  --destructive-foreground: oklch(0.95 0.01 250);
+  --border: oklch(0.22 0.01 250);
+  --input: oklch(0.18 0.01 250);
+  --ring: oklch(0.55 0.15 220);
+  --chart-1: oklch(0.55 0.15 220);
+  --chart-2: oklch(0.65 0.08 40);
+  --chart-3: oklch(0.6 0.1 80);
+  --chart-4: oklch(0.85 0.15 30);
+  --chart-5: oklch(0.65 0.12 300);
+  --sidebar: oklch(0.18 0.02 250);
+  --sidebar-foreground: oklch(0.95 0.01 250);
+  --sidebar-primary: oklch(0.55 0.15 220);
+  --sidebar-primary-foreground: oklch(0.95 0.01 250);
+  --sidebar-accent: oklch(0.25 0.01 40);
+  --sidebar-accent-foreground: oklch(0.95 0.01 250);
+  --sidebar-border: oklch(0.22 0.01 250);
+  --sidebar-ring: oklch(0.55 0.15 220);
+}
+
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out both;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 6s ease infinite;
+}
