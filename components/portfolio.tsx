@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
         <div id='portfolio'>
             <div className="container pb-14">
-                    <h2 className="text-4xl md:text-5xl font-bold">Porfolio</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold">Portfolio</h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full" />
                  </div>
 
@@ -29,10 +29,10 @@ const Portfolio = () => {
             </div>
 
              <div className='container grid grid-cols-1 md:grid-cols-2 gap-20 py-8 md:py-10 lg:py-14'>
-                <div className='order-2 md:col-span-1'>
+                <div className='order-1 md:order-2 md:col-span-1'>
                     <Image src="/TikTok-Ads-1.png" alt="img" width={1000} height={1000} className='w-full h-[450px] md:h-[600px] lg:h-[700px] object-contain' />
                 </div>
-                <div className='order-1 md:col-span-1 h-full flex flex-col items-start justify-center'>
+                <div className='order-2 md:order-1 md:col-span-1 h-full flex flex-col items-start justify-center'>
                      <h3 className='text-xl md:text-2xl lg:text-3xl font-semibold leading-normal'>Tiktok Ads Case Study </h3>
                     <p className='text-base md:text-[17px] font-medium leading-normal  py-4'><strong>Client Overview :</strong><br />
                         The client is a supply-based e-commerce business selling physical products online. The objective was to generate consistent purchases through TikTok Ads while maintaining a profitable return on ad spend with a controlled budget.
